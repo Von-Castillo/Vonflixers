@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; 
+    color: #ffcc00; 
+    text-align: center;
+    padding: 20px;
+}
+
+.wrap {
+    display: block;
+    flex-direction: row;
+}
+
+.content {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #ddd;
+}
+
+.color-example h3 {
+    color: #ff5733; 
+}
+
+color-example p {
+    background-color: #aaff55; 
+}
+
+.typography-example p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5; 
+}
+
+#uniqueDiv {
+    background-color: #9900cc;
+    font-size: 20px; 
+}
+
+.info {
+    border: 2px solid #ff3366;
+    padding: 10px;
+}
